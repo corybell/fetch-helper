@@ -1,4 +1,4 @@
-import { processResponse, errorResponse, getHeaders } from './src/helpers'
+import { processResponse, errorResponse, getHeaders } from './helpers'
 
 export async function get (url, token) {
   try {

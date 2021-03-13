@@ -2,8 +2,9 @@
   "name": "@bellistic/fetch-helper",
   "version": "1.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/corybell/fetch-helper/issues"
   },
-  "homepage": "https://github.com/corybell/fetch-helper#readme"
+  "homepage": "https://github.com/corybell/fetch-helper#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0"
+  }
 }
