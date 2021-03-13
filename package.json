@@ -1,0 +1,19 @@
+{
+  "name": "@bellistic/fetch-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corybell/fetch-helper.git"
+  },
+  "author": "@bellistic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corybell/fetch-helper/issues"
+  },
+  "homepage": "https://github.com/corybell/fetch-helper#readme"
+}
